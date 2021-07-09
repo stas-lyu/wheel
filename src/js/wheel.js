@@ -93,5 +93,4 @@ EL_spin.addEventListener("click", () => {
 EL_spinModal.addEventListener("click", () => {
     modal.classList.remove('open')
     if (!angVel) angVel = rand(0.25, 0.35);
-
 });
